@@ -40,5 +40,8 @@
     "eslint-plugin-vue": "^4.7.1",
     "standard": "^12.0.1"
   },
-  "standard": {}
+  "standard": {},
+  "publishConfig": {
+    "access": "public"
+  }
 }
