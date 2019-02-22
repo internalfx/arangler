@@ -10,9 +10,7 @@ A command line tool to ease development and administration.
 
 _Doesn't ArangoDB already have `dump` and `restore` commands for handling this?_
 
-Arangler's `clone` command can dump and restore in one step (even to remote databases). `clone` can also target a different database on the same server.
-
-The `sync` command is different entirely, `sync` runs a hashing function on the collections in both databases and only modifies the data that is different, saving tons of bandwidth and time.
+Arangler's `sync` command can dump and restore in one step (even to remote databases). `sync` can also target a different database on the same server. It runs a hashing function on the collections in both databases and only modifies the data that is different, saving tons of bandwidth and time.
 
 ---
 
