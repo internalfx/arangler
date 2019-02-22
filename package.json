@@ -1,7 +1,7 @@
 {
   "name": "@internalfx/arangler",
   "description": "An ArangoDB management tool",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/internalfx/arangler",
   "author": "InternalFX inc.",
   "repository": {
@@ -18,9 +18,8 @@
   ],
   "preferGlobal": true,
   "bin": {
-    "thinker": "./bin/arangler"
+    "arangler": "./bin/arangler"
   },
-  "main": "index.js",
   "scripts": {
     "test": "echo 'no tests yet'"
   },
