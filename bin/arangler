@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+let pjson = require('../package.json')
+let Promise = require('bluebird')
+global.Promise = Promise
+global.VERSION = pjson.version
+var main = require('../lib/main')
+var argv = require('minimist')(process.argv.slice(2))
+main(argv).catch(function (err) {
+  console.log('ERROR')
+  console.log(err)
+})
