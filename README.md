@@ -2,7 +2,7 @@
 
 ### An ArangoDB management tool.
 
-[![npm version](https://img.shields.io/npm/v/arangler.svg)](https://www.npmjs.com/package/arangler) [![license](https://img.shields.io/npm/l/arangler.svg)](https://github.com/internalfx/arangler/blob/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/@internalfx/arangler.svg)](https://www.npmjs.com/package/@internalfx/arangler) [![license](https://img.shields.io/npm/l/@internalfx/arangler.svg)](https://github.com/internalfx/arangler/blob/master/LICENSE)
 
 A command line tool to ease development and administration.
 
